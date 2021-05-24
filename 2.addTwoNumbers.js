@@ -45,7 +45,6 @@ var addTwoNumbers = function (l1, l2) {
     if (carry > 0) {
         current.next = new ListNode(carry);
     }
-    console.log('dummy', dummy.next);
     return dummy.next;
 }
 
